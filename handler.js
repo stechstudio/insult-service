@@ -22,6 +22,7 @@ module.exports.insult = (event, context, callback) => {
 };
 
 var personalQuote = function (target, data) {
+  if (target == '@dp') target = '@bubba';
   return JSON.stringify({
     response_type: "in_channel",
     text: target + " _" + data['quote'] + "_"});
