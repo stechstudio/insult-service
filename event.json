@@ -1,0 +1,63 @@
+{
+    "resource": "/insult",
+    "path": "/insult/",
+    "httpMethod": "GET",
+    "headers": {
+        "Accept": "application/json,*/*",
+        "Accept-Encoding": "gzip,deflate",
+        "CloudFront-Forwarded-Proto": "https",
+        "CloudFront-Is-Desktop-Viewer": "true",
+        "CloudFront-Is-Mobile-Viewer": "false",
+        "CloudFront-Is-SmartTV-Viewer": "false",
+        "CloudFront-Is-Tablet-Viewer": "false",
+        "CloudFront-Viewer-Country": "US",
+        "Host": "aabbff.execute-api.us-east-1.amazonaws.com",
+        "User-Agent": "Slackbot 1.0 (+https://api.slack.com/robots)",
+        "Via": "1.1 008aeqqwweerrgg4.cloudfront.net (CloudFront)",
+        "X-Amz-Cf-Id": "qBfff-aaaa_tffff==",
+        "X-Amzn-Trace-Id": "Root=1-59a99289-093bc9e214d10f7f7ff533f1",
+        "X-Forwarded-For": "5.5.5.5, 4.4.4.4",
+        "X-Forwarded-Port": "443",
+        "X-Forwarded-Proto": "https"
+    },
+    "queryStringParameters": {
+        "channel_name": "directmessage",
+        "user_id": "U02X7G9GB",
+        "user_name": "someguy",
+        "team_domain": "someteam",
+        "team_id": "Z028XB23K",
+        "text": "@dude",
+        "channel_id": "D02B7G9CM",
+        "command": "/insult",
+        "response_url": "https://hooks.slack.com/commands/T028888/12345678/kcCRXwmEgGuuVImNfoJHH8OE",
+        "token": "snap-apples"
+    },
+    "pathParameters": null,
+    "stageVariables": null,
+    "requestContext": {
+        "path": "/PRD/insult/",
+        "accountId": "6",
+        "resourceId": "a",
+        "stage": "PRD",
+        "requestId": "4594c3e5-8f37-11e7-9b8a-212187ce7742",
+        "identity": {
+            "cognitoIdentityPoolId": null,
+            "accountId": null,
+            "cognitoIdentityId": null,
+            "caller": null,
+            "apiKey": "",
+            "sourceIp": "5.5.2.6",
+            "accessKey": null,
+            "cognitoAuthenticationType": null,
+            "cognitoAuthenticationProvider": null,
+            "userArn": null,
+            "userAgent": "Slackbot 1.0 (+https://api.slack.com/robots)",
+            "user": null
+        },
+        "resourcePath": "/insult",
+        "httpMethod": "GET",
+        "apiId": "uzpi12345j6"
+    },
+    "body": null,
+    "isBase64Encoded": false
+}
