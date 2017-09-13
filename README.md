@@ -6,6 +6,8 @@ Simply create a [Slack Custom Command](https://api.slack.com/slash-commands) set
 
 Assuming you created a command like `/luthersays` you can then test it in slack by typing that. You can also target the insults with a specific user like `/luthersays @bubba`.
 
+And yes, that's a public endpoint anyone can use. Have fun. Of course, we may have to shut it down if our Lambda costs get out of control. We'll post an update on this page should we be forced to do that.
+
 # Deploy Your Own
 You should probably get comfortable with Servless Documenation first, but this will get you started.
 
